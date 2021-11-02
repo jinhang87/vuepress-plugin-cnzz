@@ -14,7 +14,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     [
       path.resolve(__dirname, '../../packages/lib/node/index.js'),
       {
-        id: "G-VB8W01RFSM",
+        id: "1280520518",
       }
     ]
   ]

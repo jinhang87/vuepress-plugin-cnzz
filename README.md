@@ -1,2 +1,2 @@
 # vuepress-plugin-cnzz
-A VuePress plugin to use cnzz easily.
+A VuePress(2.x) plugin to use cnzz easily.

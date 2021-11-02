@@ -10,17 +10,17 @@ export const cnzzPlugin: Plugin<CnzzPluginOptions> = (
   app
 ) => {
   const plugin: PluginObject = {
-    name: '@vuepress/plugin-google-analytics',
+    name: '@jinhang/plugin-cnzz',
   }
-
+  console.log('@jinhang/plugin-cnzz');
   if (!id) {
     logger.warn(`[${plugin.name}] 'id' is required`)
     return plugin
   }
 
-  if (app.env.isDev) {
-    return plugin
-  }
+  // if (app.env.isDev) {
+  //   return plugin
+  // }
 
   return {
     ...plugin,

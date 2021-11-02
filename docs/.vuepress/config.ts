@@ -1,5 +1,6 @@
 import { defineUserConfig } from '@vuepress/cli'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
+import { path } from '@vuepress/utils'
 
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/',
@@ -10,6 +11,11 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: 'https://vuejs.org/images/logo.png',
   },
   plugins: [
-    [require("../../packages/src/node/index")]
+    [
+      path.resolve(__dirname, '../../packages/lib/node/index.js'),
+      {
+        id: "G-VB8W01RFSM",
+      }
+    ]
   ]
 })

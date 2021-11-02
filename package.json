@@ -28,7 +28,7 @@
   "scripts": {
     "build": "tsc -b tsconfig.build.json",
     "clean": "rimraf lib *.tsbuildinfo",
-    "dev": "vuepress dev docs"
+    "dev": "npx tsc --build && vuepress dev docs"
   },
   "dependencies": {
     "global": "^4.4.0",

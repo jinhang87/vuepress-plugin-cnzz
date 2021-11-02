@@ -4,3 +4,12 @@ node_modules
 .temp
 .vscode
 *.log
+yarn-error.log
+.idea
+.DS_Store
+.vscode
+package-lock.json
+lib
+libs
+dist
+*.tsbuildinfo

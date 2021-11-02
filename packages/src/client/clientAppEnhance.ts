@@ -6,7 +6,6 @@ declare const __GA_ID__: string
 const id = __GA_ID__
 
 export default defineClientAppEnhance(() => {
-  if (__VUEPRESS_SSR__) return
-
+  console.log('defineClientAppEnhance', id);
   useCnzz(id)
 })
